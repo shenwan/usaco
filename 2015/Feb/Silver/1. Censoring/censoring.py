@@ -1,7 +1,7 @@
 '''
 http://www.usaco.org/index.php?page=viewproblem2&cpid=529
 
-timeout cases: 3,4,6,8,9,10,13
+timeout cases: 3,6,8,9,10,13
 '''
 
 # S = input()
@@ -21,7 +21,7 @@ M = len(S)
 N = len(T)
 
 while True:
-    S = S.replace(T, "", 1)
+    S = S.replace(T, "")
     new_len = len(S)
     if new_len == M:
         break
